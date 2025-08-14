@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 1 Year Anniversary</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section class="hero polaroid-style">
+            <div class="polaroid-photo polaroid-1" data-caption="Cutie">
+                <img src="images/photo1.jpg" alt="Cutie" onerror="this.style.display='none'">
+            </div>
+            <div class="polaroid-photo polaroid-2" data-caption="Adventure">
+                <img src="images/photo2.jpg" alt="Adventure" onerror="this.style.display='none'">
+            </div>
+            <div class="polaroid-photo polaroid-3" data-caption="Good Times">
+                <img src="images/photo3.jpg" alt="Good Times" onerror="this.style.display='none'">
+            </div>
+            <div class="polaroid-photo polaroid-4" data-caption="Together">
+                <img src="images/photo4.jpg" alt="Together" onerror="this.style.display='none'">
+            </div>
+            <div class="polaroid-photo polaroid-5" data-caption="Memories">
+                <img src="images/photo5.jpg" alt="Memories" onerror="this.style.display='none'">
+            </div>
+            <div class="polaroid-photo polaroid-6" data-caption="Us">
+                <img src="images/photo6.jpg" alt="Us" onerror="this.style.display='none'">
+            </div>
+            <div class="polaroid-photo polaroid-7" data-caption="Happy Days">
+                <img src="images/photo7.jpg" alt="Happy Days" onerror="this.style.display='none'">
+            </div>
+            <div class="polaroid-photo polaroid-8" data-caption="Sweet Moments">
+                <img src="images/photo8.jpg" alt="Sweet Moments" onerror="this.style.display='none'">
+            </div>
+            <div class="polaroid-photo polaroid-9" data-caption="Laughs">
+                <img src="images/photo9.jpg" alt="Laughs" onerror="this.style.display='none'">
+            </div>
+            <div class="polaroid-photo polaroid-10" data-caption="Love">
+                <img src="images/photo10.jpg" alt="Love" onerror="this.style.display='none'">
+            </div>
+            <div class="polaroid-photo polaroid-11" data-caption="Journey">
+                <img src="images/photo11.jpg" alt="Journey" onerror="this.style.display='none'">
+            </div>
+            <div class="polaroid-photo polaroid-12" data-caption="Dreams">
+                <img src="images/photo12.jpg" alt="Dreams" onerror="this.style.display='none'">
+            </div>
+            
+            <div class="hero-content">
+                <h1 class="main-title">Happy 1 Year Anniversary</h1>
+                <p class="subtitle">Anggi 🌻</p>
+                <div class="date-counter">
+                    <div class="counter-box">
+                        <span class="number" id="days">365</span>
+                        <span class="label">Days</span>
+                    </div>
+                    <div class="counter-box">
+                        <span class="number" id="hours">8760</span>
+                        <span class="label">Hours</span>
+                    </div>
+                    <div class="counter-box">
+                        <span class="number" id="minutes">525600</span>
+                        <span class="label">Minutes</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Music Player -->
+            <div class="music-player">
+                <div class="music-control">
+                    <button id="playBtn" class="play-btn">🎵</button>
+                    <div class="music-info">
+                        <span class="song-title">Our Song</span>
+                        <div class="volume-control">
+                            <span class="volume-icon">🔊</span>
+                            <input type="range" id="volumeSlider" min="0" max="100" value="50" class="volume-slider">
+                        </div>
+                    </div>
+                </div>
+                <audio id="backgroundMusic" loop>
+                    <source src="music/our-song.mp3" type="audio/mpeg">
+                    <source src="music/our-song.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </section>
+
+        <section class="love-message">
+            <div class="message-content">
+                <h2>Our Story</h2>
+                <div class="message-text">
+                    <p>A year has passed since we started this journey together. Every day with you has been a gift. Thank you for being the most important part of my life.</p>
+                    <p>In these 365 days, you've taught me what true happiness means. Every laugh, every hug, and every moment with you is a memory I'll always treasure.</p>
+                    <p>Here's to many more anniversaries together. With you, every day feels like a new adventure.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="memory-gallery">
+            <h2>Our Memories</h2>
+            <div class="gallery-grid">
+                <div class="memory-card">
+                    <div class="memory-image">
+                        <img src="images/date1.jpg" alt="First Date" onerror="this.parentElement.className='memory-image first-date'">
+                    </div>
+                    <h3>First Date</h3>
+                    <p>The day we met and instantly felt comfortable with each other</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-image">
+                        <img src="images/kiss1.png" alt="First Kiss" onerror="this.parentElement.className='memory-image first-kiss'">
+                    </div>
+                    <h3>First Kiss</h3>
+                    <p>That special moment that made our hearts race</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-image">
+                        <img src="images/trip1.jpg" alt="Adventure" onerror="this.parentElement.className='memory-image adventure'">
+                    </div>
+                    <h3>Adventures</h3>
+                    <p>Every trip with you has been unforgettable</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-image">
+                        <img src="images/daily1.jpg" alt="Everyday" onerror="this.parentElement.className='memory-image everyday'">
+                    </div>
+                    <h3>Everyday Moments</h3>
+                    <p>Even ordinary days are special with you</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-image">
+                        <img src="images/food1.jpg" alt="Food Dates" onerror="this.parentElement.className='memory-image first-date'">
+                    </div>
+                    <h3>Food Adventures</h3>
+                    <p>Discovering new places and flavors together</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-image">
+                        <img src="images/sunset1.jpg" alt="Sunsets" onerror="this.parentElement.className='memory-image adventure'">
+                    </div>
+                    <h3>Beautiful Sunsets</h3>
+                    <p>Watching the world change colors in your company</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-image">
+                        <img src="images/laugh1.jpg" alt="Laughter" onerror="this.parentElement.className='memory-image everyday'">
+                    </div>
+                    <h3>Endless Laughter</h3>
+                    <p>You make me laugh like no one else can</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-image">
+                        <img src="images/cozy1.jpg" alt="Cozy Times" onerror="this.parentElement.className='memory-image first-kiss'">
+                    </div>
+                    <h3>Cozy Moments</h3>
+                    <p>Quiet times together are the most precious</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-image">
+                        <img src="images/celebrate1.jpg" alt="Celebrations" onerror="this.parentElement.className='memory-image adventure'">
+                    </div>
+                    <h3>Celebrations</h3>
+                    <p>Every milestone is better when shared with you</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="photo-grid-section">
+            <h2>More Memories</h2>
+            <div class="photo-grid">
+                <div class="grid-photo">
+                    <img src="images/grid1.jpg" alt="Memory 1" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid2.jpg" alt="Memory 2" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid3.jpg" alt="Memory 3" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid4.jpg" alt="Memory 4" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid5.jpg" alt="Memory 5" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid6.jpg" alt="Memory 6" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid7.jpg" alt="Memory 7" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid8.jpg" alt="Memory 8" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid9.jpg" alt="Memory 9" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid10.jpg" alt="Memory 10" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid11.jpg" alt="Memory 11" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid12.jpg" alt="Memory 12" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid13.jpg" alt="Memory 13" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid14.jpg" alt="Memory 14" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid15.jpg" alt="Memory 15" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid16.jpg" alt="Memory 16" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid17.jpg" alt="Memory 17" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid18.jpg" alt="Memory 18" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid19.jpg" alt="Memory 19" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid20.jpg" alt="Memory 20" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid21.jpg" alt="Memory 21" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid22.jpg" alt="Memory 22" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid23.jpg" alt="Memory 23" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid24.jpg" alt="Memory 24" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid25.jpg" alt="Memory 25" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid26.jpg" alt="Memory 26" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid27.jpg" alt="Memory 27" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid28.jpg" alt="Memory 28" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid29.jpg" alt="Memory 29" onerror="this.style.display='none'">
+                </div>
+                <div class="grid-photo">
+                    <img src="images/grid30.jpg" alt="Memory 30" onerror="this.style.display='none'">
+                </div>
+            </div>
+        </section>
+
+        <section class="promise">
+            <div class="promise-content">
+                <h2>My Promise</h2>
+                <div class="promise-list">
+                    <div class="promise-item">
+                        <span class="promise-icon">💝</span>
+                        <p>I promise to always love you with all my heart</p>
+                    </div>
+                    <div class="promise-item">
+                        <span class="promise-icon">🤗</span>
+                        <p>I'll always be here for you through good times and bad</p>
+                    </div>
+                    <div class="promise-item">
+                        <span class="promise-icon">🌟</span>
+                        <p>I'll strive to be the best version of myself for you</p>
+                    </div>
+                    <div class="promise-item">
+                        <span class="promise-icon">🏠</span>
+                        <p>I promise to build a beautiful future together</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p>With endless love</p>
+                <div class="heart-animation">❤️</div>
+                <p>Happy Anniversary</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
